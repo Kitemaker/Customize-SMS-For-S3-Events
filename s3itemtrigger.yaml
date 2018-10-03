@@ -6,4 +6,4 @@ Resources:
     Properties:
       Handler: Custom_SMS_For_S3_Python.lambda_handler
       Runtime: Python 3.6
-      CodeUri: s3://sjalexaskillsvirginea/Custom_SMS_For_S3_Python.zip
+      CodeUri: .
