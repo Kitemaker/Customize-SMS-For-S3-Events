@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Resources:
+  CustomSMSForS3Python:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: Custom_SMS_For_S3_Python.lambda_handler
+      Runtime: Python 3.6
+      CodeUri: s3://sjalexaskillsvirginea/Custom_SMS_For_S3_Python.zip
